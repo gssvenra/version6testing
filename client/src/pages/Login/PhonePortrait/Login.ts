@@ -23,7 +23,7 @@ export class Login_PhonePortrait extends Screen {
   }
 
   public myLogin() {
-      this.action('submit');
+      data.action('submit');
   }
 }
 
