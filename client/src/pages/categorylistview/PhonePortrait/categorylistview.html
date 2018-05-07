@@ -18,16 +18,12 @@
 <ion-content data-comp-id="content.1">
     <ion-list data-comp-id="list.1">
         <ion-list-header color="light" data-comp-id="list-header.1">
-            <span data-comp-id="text.3" ion-text="">List Header</span>
+            <span data-comp-id="text.1" ion-text="">List Header</span>
         </ion-list-header>
         <ion-item (click)="action('Group[item].viewDetails', [i])"
-            *ngFor="let item of data.Group;let i = index" data-comp-id="item.2">
-            <ion-icon class="ion-ios-add-circle" color="secondary" data-comp-id="icon.1"
-                item-start="" name="{{ item.icon?item.icon:'archive' }}" style=""></ion-icon>
-            <h2 [innerHTML]="item.Title" data-comp-id="text.1" ion-text="" style="">Item title</h2>
-            <p [innerHTML]="item.Description" data-comp-id="text.2" ion-text="" style="">Item text</p>
-            <ion-icon class="ion-ios-arrow-forward-outline" color="primary"
-                data-comp-id="icon.2" item-end="" style=""></ion-icon>
+            *ngFor="let item of data.Group;let i = index" data-comp-id="item.1">
+            <h2 [innerHTML]="item.ID" data-comp-id="text.2" ion-text="" style="">Item title</h2>
+            <p [innerHTML]="item.Description" data-comp-id="text.3" ion-text="" style="">Item text</p>
         </ion-item>
     </ion-list>
 </ion-content>

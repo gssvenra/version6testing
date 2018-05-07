@@ -45,12 +45,6 @@
         "items": {
           "type": "object",
           "properties": {
-            "Title": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
             "Description": {
               "type": "string",
               "update": {
@@ -60,8 +54,11 @@
             "icon": {
               "type": "string"
             },
-            "viewDetails": {
-              "type": "action"
+            "ID": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
