@@ -26,14 +26,5 @@
     }
   },
   "id": "Login",
-  "connect": [
-    {
-      "match": [
-        "islogin",
-        "ishome",
-        "islist"
-      ],
-      "event": "Login"
-    }
-  ]
+  "connect": []
 }
