@@ -1,0 +1,45 @@
+{
+  "Login": {
+    "type": "object",
+    "comment": "Login",
+    "properties": {
+      "username": {
+        "type": "string",
+        "label": "username"
+      },
+      "password": {
+        "type": "string",
+        "label": "password"
+      },
+      "submit": {
+        "type": "action",
+        "parameters": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "id": "Login"
+  },
+  "Home": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {},
+    "id": "Home"
+  },
+  "menu": {
+    "type": "object",
+    "properties": {},
+    "id": "menu"
+  },
+  "settings": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {},
+    "id": "settings"
+  }
+}

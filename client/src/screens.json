@@ -1,0 +1,27 @@
+{
+  "id": "__BASE__",
+  "name": "version6testing",
+  "screens": [
+    {
+      "id": "Login",
+      "name": "Login",
+      "sourceScreenId": "Login",
+      "sourceAppId": "TouchID"
+    },
+    {
+      "id": "Home",
+      "name": "Home",
+      "sourceScreenId": "Home",
+      "sourceAppId": "TouchID"
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "modal": true,
+      "sourceScreenId": "settings",
+      "sourceAppId": "TouchID",
+      "preventAutoDismiss": true
+    }
+  ],
+  "startScreen": "Login"
+}

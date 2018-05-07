@@ -1,0 +1,91 @@
+<ion-header data-comp-id="header.1">
+    <ion-navbar color="primary" data-comp-id="navbar.1" style="">
+        <ion-buttons data-comp-id="buttons.1" right="">
+            <button (click)="go('settings')" data-comp-id="icon-button.1" ion-button=""
+                style="font-size: 24px;">
+                <ion-icon class="ion-ios-search"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title data-comp-id="title.1" text-center="">
+            <span ion-text="">Home</span>
+        </ion-title>
+        <ion-buttons data-comp-id="buttons.2" left="">
+            <button (click)="showMenu()" data-comp-id="icon-button.2" ion-button=""
+                style="font-size: 24px;">
+                <ion-icon class="ion-ios-menu"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content class="content-secondary" data-comp-id="content.1" style="">
+    <ion-row data-comp-id="row.1" style="padding: 15px;">
+        <ion-col data-comp-id="column.1">
+            <div color="light" data-comp-id="text.1" ion-text="" style="line-height: 20px;">Our
+                mission is to deliver great personal service and the best financial products to
+                our customers – and the local communities we serve.</div>
+        </ion-col>
+    </ion-row>
+    <div data-comp-id="div.1" style="margin: 0 1% 0 1%;">
+        <ion-row data-comp-id="row.2">
+            <ion-col data-comp-id="column.2"
+                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="fa fa-globe" color="primary" data-comp-id="icon.1"
+                    style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.2" ion-text=""
+                    style="font-size: 16px; margin: 10px 0 0;">Web<br>
+                    Resources</div>
+            </ion-col>
+            <ion-col data-comp-id="column.3"
+                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="fa fa-money" color="primary" data-comp-id="icon.2"
+                    style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.3" ion-text=""
+                    style="font-size: 16px; margin: 10px 0 0;">Lending<br>
+                    Resources</div>
+            </ion-col>
+        </ion-row>
+    </div>
+    <div data-comp-id="div.2" style="margin: 0% 1% 0 1%;">
+        <ion-row data-comp-id="row.3">
+            <ion-col data-comp-id="column.4"
+                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="fa fa-building" color="primary" data-comp-id="icon.3"
+                    style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.4" ion-text=""
+                    style="font-size: 16px; margin: 10px 0 0;">Commercial<br>
+                    Sites</div>
+            </ion-col>
+            <ion-col data-comp-id="column.5"
+                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="fa fa-graduation-cap" color="primary" data-comp-id="icon.4"
+                    style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.5" ion-text=""
+                    style="font-size: 16px; margin: 10px 0 0;">Employee<br>
+                    Education</div>
+            </ion-col>
+        </ion-row>
+    </div>
+    <div data-comp-id="div.3" style="margin: 0 1% 0 1%;">
+        <ion-row data-comp-id="row.4">
+            <ion-col data-comp-id="column.6"
+                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="ion-ios-document" color="primary" data-comp-id="icon.5"
+                    style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.6" ion-text=""
+                    style="font-size: 16px; margin: 10px 0 0;">HR<br>
+                    Documents</div>
+            </ion-col>
+            <ion-col data-comp-id="column.7"
+                style="margin: 2px; padding: 30px 5px; text-align: center; background-color: #ffffff; border-radius: 6px;">
+                <ion-icon class="fa fa-tree" color="primary" data-comp-id="icon.6"
+                    style="font-size: 24px;"></ion-icon>
+                <div color="primary" data-comp-id="text.7" ion-text=""
+                    style="font-size: 16px; margin: 10px 0 0;">Bank<br>
+                    Holidays</div>
+            </ion-col>
+        </ion-row>
+    </div>
+    <touchid-save [authRequest]="appService ? appService.getAuthRequest() : null"
+        data-comp-id="touchid-save.1" message="Would you like to use Touch ID to login?"
+        title="Touch ID Available"></touchid-save>
+</ion-content>
