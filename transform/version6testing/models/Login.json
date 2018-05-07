@@ -26,5 +26,12 @@
     }
   },
   "id": "Login",
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "islogin"
+      ],
+      "event": "Login"
+    }
+  ]
 }
