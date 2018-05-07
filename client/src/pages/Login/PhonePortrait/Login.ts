@@ -3,9 +3,9 @@ import { Screen } from 'app/screen';
 
 @Component({
   selector: 'screen-login-phoneportrait',
-  templateUrl: 'Login.html'
+  templateUrl: 'login.html'
 })
-export class Login_PhonePortrait extends Screen {
+export class login_PhonePortrait extends Screen {
   data: any;
 
   ngOnInit(): void {

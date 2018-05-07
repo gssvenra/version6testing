@@ -3,8 +3,8 @@
   "name": "version6testing",
   "screens": [
     {
-      "id": "Login",
-      "name": "Login",
+      "id": "login",
+      "name": "login",
       "sourceScreenId": "Login",
       "sourceAppId": "TouchID"
     },
@@ -23,5 +23,5 @@
       "sourceAppId": "StrawberryTemplates"
     }
   ],
-  "startScreen": "Login"
+  "startScreen": "login"
 }

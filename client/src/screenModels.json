@@ -1,31 +1,4 @@
 {
-  "Login": {
-    "type": "object",
-    "comment": "Login",
-    "properties": {
-      "username": {
-        "type": "string",
-        "label": "username"
-      },
-      "password": {
-        "type": "string",
-        "label": "password"
-      },
-      "submit": {
-        "type": "action",
-        "parameters": {
-          "username": {
-            "type": "string"
-          },
-          "password": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    "id": "Login",
-    "sourcePath": "Login"
-  },
   "menu": {
     "type": "object",
     "properties": {},
@@ -70,5 +43,32 @@
     },
     "id": "categorylistview",
     "sourcePath": "categorylistview"
+  },
+  "login": {
+    "type": "object",
+    "comment": "Login",
+    "properties": {
+      "username": {
+        "type": "string",
+        "label": "username"
+      },
+      "password": {
+        "type": "string",
+        "label": "password"
+      },
+      "submit": {
+        "type": "action",
+        "parameters": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "id": "Login",
+    "sourcePath": "Login"
   }
 }
