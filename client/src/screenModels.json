@@ -23,7 +23,8 @@
         }
       }
     },
-    "id": "Login"
+    "id": "Login",
+    "sourcePath": "Login"
   },
   "menu": {
     "type": "object",
@@ -67,6 +68,7 @@
         }
       }
     },
-    "id": "categorylistview"
+    "id": "categorylistview",
+    "sourcePath": "categorylistview"
   }
 }

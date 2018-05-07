@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "comment": "Blank",
+  "properties": {
+    "Group": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Description": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "icon": {
+            "type": "string"
+          },
+          "ID": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "id": "categorylistview",
+  "connect": []
+}
