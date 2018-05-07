@@ -27,6 +27,9 @@
       "update": {
         "type": "none"
       }
+    },
+    "islist": {
+      "type": "identifier"
     }
   },
   "id": "categorylistview",
