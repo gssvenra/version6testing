@@ -9,12 +9,6 @@
       "sourceAppId": "TouchID"
     },
     {
-      "id": "Home",
-      "name": "Home",
-      "sourceScreenId": "Home",
-      "sourceAppId": "TouchID"
-    },
-    {
       "id": "settings",
       "name": "Settings",
       "modal": true,

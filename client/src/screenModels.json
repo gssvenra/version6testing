@@ -25,12 +25,6 @@
     },
     "id": "Login"
   },
-  "Home": {
-    "type": "object",
-    "comment": "Blank",
-    "properties": {},
-    "id": "Home"
-  },
   "menu": {
     "type": "object",
     "properties": {},
