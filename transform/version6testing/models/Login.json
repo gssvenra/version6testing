@@ -20,7 +20,8 @@
       "selector": "input[class='button']"
     },
     "islogin": {
-      "type": "identifier"
+      "type": "identifier",
+      "selector": "input[class='button']"
     }
   },
   "id": "Login",
