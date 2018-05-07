@@ -9,7 +9,7 @@
     "clickAssigned": {
       "type": "action",
       "control": "action.click",
-      "selector": "a[href='view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80'][class='subtle']"
+      "selector": "a[href='/mantisbt/view_all_bug_page.php']"
     }
   },
   "connect": [
