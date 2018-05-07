@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "ishome": {
+      "type": "identifier"
+    },
+    "clickAssigned": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}
