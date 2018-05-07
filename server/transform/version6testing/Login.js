@@ -1,4 +1,4 @@
-exports.Login = async (session, models, vars) => {
+exports.login = async (session, models, vars) => {
     models.Login = vars.page;
-    await session.screen('Login');
+    await session.screen('login');
 };

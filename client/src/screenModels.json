@@ -68,7 +68,7 @@
         }
       }
     },
-    "id": "Login",
+    "id": "login",
     "sourcePath": "Login"
   }
 }
