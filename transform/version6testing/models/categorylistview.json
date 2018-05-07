@@ -11,16 +11,25 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "control": "property.innerText",
+            "selectIndex": 6,
+            "selector": "td"
           },
           "icon": {
-            "type": "string"
+            "type": "string",
+            "control": "property.innerText",
+            "selectIndex": 1,
+            "selector": "td"
           },
           "ID": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "control": "property.innerText",
+            "selectIndex": 3,
+            "selector": "td"
           }
         }
       },
@@ -29,9 +38,18 @@
       }
     },
     "islist": {
-      "type": "identifier"
+      "type": "identifier",
+      "control": "exists",
+      "selector": "span[class='floatleft']"
     }
   },
   "id": "categorylistview",
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "islist"
+      ],
+      "event": "categorylistview"
+    }
+  ]
 }
