@@ -22,7 +22,7 @@
     "islogin": {
       "type": "identifier",
       "control": "exists",
-      "selector": "form[action='login.php']"
+      "selector": "input[name='username']"
     }
   },
   "id": "Login",
