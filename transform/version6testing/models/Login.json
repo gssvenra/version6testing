@@ -21,7 +21,8 @@
     },
     "islogin": {
       "type": "identifier",
-      "selector": "input[class='button']"
+      "control": "exists",
+      "selector": "form[action='login.php']"
     }
   },
   "id": "Login",
