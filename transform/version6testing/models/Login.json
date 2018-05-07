@@ -30,6 +30,10 @@
     {
       "match": [],
       "event": "Login"
+    },
+    {
+      "match": [],
+      "event": "submit"
     }
   ]
 }
