@@ -22,7 +22,9 @@ export class Login_PhonePortrait extends Screen {
     // Logic to run when the screen's data is updated goes here.
   }
 
-  myLogin() {
+  public myLogin() {
       action('submit');
   }
 }
+
+
