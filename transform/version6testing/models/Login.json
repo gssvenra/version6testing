@@ -29,7 +29,9 @@
   "connect": [
     {
       "match": [
-        "islogin"
+        "islogin",
+        "ishome",
+        "islist"
       ],
       "event": "Login"
     }
