@@ -4,5 +4,15 @@
   "defaultLayout": "PhonePortrait",
   "previewToken": "d2dcade9",
   "clientVersion": "6.0.22",
-  "creatorId": "gssvenra"
+  "creatorId": "gssvenra",
+  "id": "version6testing",
+  "isBuiltInTemplate": false,
+  "screensCount": 4,
+  "isVersioned": true,
+  "pathToRepo": "c:\\ProgramData\\SmartUX Studio\\users\\gssvenra\\version6testing",
+  "githubRepo": "https://github.com/gssvenra/version6testing",
+  "creatorName": "Venugopal Ramamurthy",
+  "explorations": [
+    "version6testing"
+  ]
 }
