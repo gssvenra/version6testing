@@ -31,7 +31,7 @@
       "match": [
         "islogin"
       ],
-      "event": "Login"
+      "event": "login"
     }
   ]
 }
