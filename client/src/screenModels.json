@@ -35,5 +35,41 @@
     "comment": "Blank",
     "properties": {},
     "id": "settings"
+  },
+  "categorylistview": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {
+      "Group": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "Description": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "icon": {
+              "type": "string"
+            },
+            "viewDetails": {
+              "type": "action"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    },
+    "id": "categorylistview"
   }
 }

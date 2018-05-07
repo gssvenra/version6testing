@@ -15,6 +15,12 @@
       "sourceScreenId": "settings",
       "sourceAppId": "TouchID",
       "preventAutoDismiss": true
+    },
+    {
+      "id": "categorylistview",
+      "name": "CategoryListView",
+      "sourceScreenId": "ListView_CategoryListView",
+      "sourceAppId": "StrawberryTemplates"
     }
   ],
   "startScreen": "Login"

@@ -1,0 +1,37 @@
+{
+    "Group": [
+        {
+            "Title": "Price & Availability",
+            "Description": "lorem ipsum",
+            "icon": "pricetags"
+        }, {
+            "Title": "Search by Part Number",
+            "Description": "quis nostrud exercitation",
+            "icon": "search"
+        }, {
+            "Title": "Browse Products",
+            "Description": "Ut enim ad minim",
+            "icon": "albums"
+        }, {
+            "Title": "Direct Order Entry",
+            "Description": "dolore magna aliqua",
+            "icon": "add-circle"
+        }, {
+            "Title": "Import Order",
+            "Description": "incididunt ut labore",
+            "icon": "cloud-upload"
+        }, {
+            "Title": "View Order History",
+            "Description": "sed do eiusmod tempor",
+            "icon": "timer"
+        }, {
+            "Title": "Stock Rotation",
+            "Description": "consectetur adipiscing elit",
+            "icon": "refresh-circle"
+        }, {
+            "Title": "Quick Quote Entry",
+            "Description": "dolor sit amet",
+            "icon": "archive"
+        }
+    ]
+}
