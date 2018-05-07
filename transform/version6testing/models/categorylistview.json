@@ -35,7 +35,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": "table[cellspacing='1'][id='buglist'] tbody tr"
     },
     "islist": {
       "type": "identifier",
