@@ -66,9 +66,14 @@
             "type": "string"
           }
         }
+      },
+      "errorMessage": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     },
-    "id": "login",
-    "sourcePath": "Login"
+    "id": "login"
   }
 }

@@ -21,6 +21,12 @@
       "name": "CategoryListView",
       "sourceScreenId": "ListView_CategoryListView",
       "sourceAppId": "StrawberryTemplates"
+    },
+    {
+      "id": "login",
+      "name": "Login",
+      "sourceScreenId": "Login_LoginLightBlue",
+      "sourceAppId": "StrawberryTemplates"
     }
   ],
   "startScreen": "login"
