@@ -3,12 +3,6 @@
   "name": "version6testing",
   "screens": [
     {
-      "id": "login",
-      "name": "login",
-      "sourceScreenId": "Login",
-      "sourceAppId": "TouchID"
-    },
-    {
       "id": "settings",
       "name": "Settings",
       "modal": true,
