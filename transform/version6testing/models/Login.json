@@ -4,24 +4,32 @@
   "properties": {
     "username": {
       "type": "string",
-      "label": "username"
+      "label": "username",
+      "control": "text",
+      "selector": "input[name='username']"
     },
     "password": {
       "type": "string",
-      "label": "password"
+      "label": "password",
+      "control": "text",
+      "selector": "input[name='password']"
     },
     "submit": {
       "type": "action",
-      "parameters": {
-        "username": {
-          "type": "string"
-        },
-        "password": {
-          "type": "string"
-        }
-      }
+      "control": "action.click",
+      "selector": "input[class='button']"
+    },
+    "islogin": {
+      "type": "identifier"
     }
   },
   "id": "Login",
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "islogin"
+      ],
+      "event": "submit"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-    startURL: 'http://ec2-52-41-179-125.us-west-2.compute.amazonaws.com/mantisbt/login_page.php',
+    startURL: 'http://ec2-54-200-41-250.us-west-2.compute.amazonaws.com/mantisbt/login_page.php',
     eventDetection: {
         // The minimum interval for checking events.
         debounceTime: 500,
