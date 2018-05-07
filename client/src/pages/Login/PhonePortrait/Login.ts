@@ -21,10 +21,6 @@ export class Login_PhonePortrait extends Screen {
   onDataLoad(data: any) {
     // Logic to run when the screen's data is updated goes here.
   }
-
-  public myLogin() {
-      this.appService.action('submit');
-  }
 }
 
 
