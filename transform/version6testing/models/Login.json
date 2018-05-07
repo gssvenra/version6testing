@@ -28,10 +28,8 @@
   "id": "Login",
   "connect": [
     {
-      "match": [
-        "islogin"
-      ],
-      "event": "submit"
+      "match": [],
+      "event": "Login"
     }
   ]
 }
